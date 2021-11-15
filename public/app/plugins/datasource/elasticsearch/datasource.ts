@@ -591,7 +591,7 @@ export class ElasticDatasource
         id: '3',
         type: 'date_histogram',
         settings: {
-          interval: 'auto',
+          fixed_interval: 'auto',
           min_doc_count: '0',
           trimEdges: '0',
         },
